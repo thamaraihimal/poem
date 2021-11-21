@@ -15,7 +15,7 @@ body{
     background-size: cover;
 }
 h1{
-    color: rgb(127, 162, 202);
+    color: rgb(255, 255, 255);
     left: 40px;
     top: 50px;
     position: absolute;
@@ -80,6 +80,9 @@ button:hover span{
 button:hover{
     border: none;
     
+}
+.content > button > a{
+    text-decoration: none;
 }
 
 

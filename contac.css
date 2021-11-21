@@ -1,8 +1,15 @@
 body{
-    background: rgb(87, 148, 218);
+    width: 98%;
+    height: 95vh;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(background.jpg);
+    /* background-size: cover; */
+    background-position: center;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    color: white;
 }
 h1{
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     left: 40px;
     top: 50px;
     position: absolute;
@@ -24,6 +31,7 @@ h1{
     /* border: 1.5px solid black; */
     transition: 0.5s;
     border-radius: 5px;
+    color: white;
 }
 .new ul li a:hover{
     background-color: rgb(127, 162, 202);

@@ -21,18 +21,23 @@ h1{
 }
 .new ul li a{ 
     text-decoration: none;
+    color: white;
     padding: 15px 20px;
     transition: 0.5s;
     border-radius: 5px;
 }
 .new ul li a:hover{
-    background-color: rgb(56, 149, 255);
-    color: rgb(255, 255, 255);
+    background-color: rgb(189, 189, 189);
+    color: rgb(0, 0, 0);
 }
 /* ----watch poem------- */
 body{
-    background: radial-gradient(#fff,rgb(87, 148, 218));
-}   
+    /* background: radial-gradient(#fff,rgb(87, 148, 218)); */
+    background: radial-gradient(rgb(172, 172, 172),rgb(0, 0, 0))
+}  
+.categories{
+    margin-top: 70px;
+} 
 .pic1{
     display: flex;
     width: 250px;
@@ -41,7 +46,7 @@ body{
     border:1px solid #040536 ;
     border-radius: 10px;
     float: left;
-    margin: 100px;
+    margin: 60px;
     /* display: block; */
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
